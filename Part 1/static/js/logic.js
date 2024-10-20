@@ -99,4 +99,4 @@ function createLegend() {
 }
 
 // Perform an API call to the GeoJSON API to get the earthquake information. Call createMarkers when it completes.
-d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson").then(createMarkers);
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson").then(createMarkers);
